@@ -1,0 +1,317 @@
+
+
+@font-face {
+  font-family:  myFont;
+  src:url(digi.ttf);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #111;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+
+ 
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .svg{
+    position: relative;
+    display:flex;
+    align-content:vertical
+    ;
+  }
+  .container {
+    position: relative;
+    vertical-align:middle;
+    
+  }
+  .meter{
+    display: flex;
+    flex-direction: column; /* Change to column to align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    align-content:space-between; /* Center the content */
+    gap: 50px;
+    top:0;
+    height: 100%;  /* Ensure the meter takes up the full height */
+    position: absolute;
+  left: 0; /* Pushes the meter to the left side */
+
+  }
+  .logo{
+  position: absolute;
+  top: 30px; /* Align to the top of the interface */
+  left: 48%; /* Align to the center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  margin-top:0px;
+  }
+
+.steering img{
+  position:relative;
+padding-left: 100px;
+margin-left:1000px;
+
+  }
+
+   
+  .brake{
+   position: absolute;
+   color:rgb(98, 255, 98);
+   font-size:30px; 
+   font-weight:bolder;
+   font-family:myfont;
+   margin-top:350px;
+   margin-right: 350px;
+   animation: blink 1s linear
+   infinite
+  }
+  
+.voltage
+{
+  position: absolute;
+  color:rgb(98, 255, 98);
+  font-size:30px; 
+  font-weight:bolder;
+  font-family:myfont;
+  margin-top:350px;
+  margin-left:250px;
+  animation: blink 1s linear
+  infinite
+}
+  
+.graph{
+  position:absolute;
+  margin-left:1100px;
+  top: 20px;
+
+padding-right:0px;
+margin-right: 0px;
+ z-index:-100;
+ mix-blend-mode:lighten;
+}
+  
+.stats{
+  position: absolute;
+mix-blend-mode: lighten;
+margin-left:950px;
+
+}
+
+.line1{
+  position: absolute;
+  mix-blend-mode:lighten;
+  bottom:38px;
+  right:225px
+}
+
+.line2{
+  position: absolute;
+  mix-blend-mode:lighten;
+  bottom:155px;
+  right:220px
+}
+.line3{
+  position: absolute;
+  mix-blend-mode:lighten;
+  bottom:38px;
+  right:30px
+}
+.line4{
+  position: absolute;
+  mix-blend-mode:lighten;
+  bottom:155px;
+  right:40px
+}
+.f1car img{
+  position: absolute;
+  bottom:20px;
+  right:130px;
+ width: 90px;
+ height: 180px;
+ mix-blend-mode:exclusion;
+
+}
+
+.steering{
+  display: flex;
+  align-items: center; /* Aligns text and image vertically */
+  justify-content: center; 
+  padding-left: 100px;
+}
+
+
+.tx1{
+  position: absolute;
+  mix-blend-mode;
+  bottom:49px;
+font-size: 15px;
+  right:230px;
+  color: white;
+}
+
+.tx11{
+  position: absolute;
+  mix-blend-mode;
+  bottom:30px;
+font-size: 15px;
+  right:230px;
+  color: white;
+}
+
+
+.tx2{
+  position: absolute;
+
+  bottom:165px;
+font-size: 15px;
+  right:230px;
+  color: white;
+}
+
+.tx22{
+  position: absolute;
+  
+  bottom:145px;
+font-size: 15px;
+  right:230px;
+  color: white;
+}
+
+.tx3{
+  position: absolute;
+  
+  bottom:49px;
+font-size: 15px;
+  right:70px;
+  color: white;
+}
+
+.tx33{
+  position: absolute;
+  
+  bottom:148px;
+font-size: 15px;
+  right:70px;
+  color: white;
+}
+
+.tx4{
+  position: absolute;
+  mix-blend-mode:;
+  bottom:165px;
+  right:60px;
+font-size: 15px;
+
+  color: white;
+}
+
+.tx44{
+  position: absolute;
+  
+  bottom: 30px;
+  right: 80px;
+font-size: 15px;
+ 
+  color: white;
+}
+
+
+@keyframes blink{
+  50% {
+  opacity: 0 ;
+  }
+  }
+
+  .txt{
+    gap: px;
+  font-family:myFont;
+  position: absolute;
+  animation: blink 1s linear
+  infinite;
+  top: 200px;  
+  margin-left:-100px;
+  margin-bottom:1400px;
+  font-weight:bolder;
+  font-size:30px; 
+  color: rgb(98, 255, 98);
+ 
+  }
+  
+
+  .aps{
+   position: absolute;
+    gap: px;
+  text-align:center;
+  margin-left:200px;
+  margin-top:80px;
+  font-family:sans-serif;
+  color: rgb(98, 255, 98);
+  animation: blink 1s linear
+  infinite;
+  
+
+
+
+  margin-top: px;
+  margin-bottom: 135px;
+  font-weight:bolder;
+  font-size: 30px; 
+  font-family:myfont;
+  }
+  
+
+.centre img {
+width: 200px;
+height:200px;
+margin-top:100px;
+margin-right:100px;
+}
+
+
+
+  
+  #speed {
+    color: white;
+    font-size: 36px;
+    line-height: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 25px;
+    z-index: 1;
+  }
+  #meter-bg-bar {
+    animation: dash 3s linear forwards infinite;
+    stroke-dasharray: 615;
+  }
+  #speedo{
+    animation: dash 6s linear forwards infinite;
+    stroke-dasharray: 615;
+  }
+  @keyframes dash {
+    0%,
+    100% {
+      stroke-dashoffset: 615;
+    }
+    25% {
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dashoffset: 307.5;
+    }
+    75% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
